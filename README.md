@@ -1,7 +1,5 @@
 # To-Do List App 
 
-# To-Do List App
-
 ## Description
 
 This project is a simple To-Do List app built with HTML, CSS, and JavaScript. It allows users to add tasks, set due dates, and assign priority levels. The app features a clean and user-friendly interface.

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-Do List App</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    
+    <body>
+        <header>
+            
+            <h1>
+                To-Do List
+            </h1>
+            
+        </header>
+
+        <div class="content">
+            <section id = "add-item-section">
+                <form>
+                    <input id ="input-text" type="text" placeholder="Enter a new task.">
+                    <label for="selesct-due-date">Due Date</label>
+                    <input id="select-due-date" type="date">
+                    
+                    <select id="select-priority">
+                        <option value="not-selected">Priority</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                    <button id = "input-btn">Add</button>
+                </form>
+            </section>
+    
+            <section id = "task-list-section">
+                <ul id = "task-list"></ul>
+            </section>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
